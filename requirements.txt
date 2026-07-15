@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# PrepPilot — AI-Powered Interview Trainer
+# IBM SkillsBuild Internship Project 2025
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core Streamlit Framework ──────────────────────────────────────────────────
+streamlit==1.35.0
+
+# ── Environment & Configuration ───────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── HTTP Client (watsonx Orchestrate API calls) ───────────────────────────────
+requests==2.32.2
+
+# ── IBM watsonx.ai SDK (optional: direct model calls) ────────────────────────
+ibm-watsonx-ai==1.1.2
+
+# ── IBM Cloud Object Storage (COS) — resume storage ──────────────────────────
+ibm-cos-sdk==2.13.6
+
+# ── Document Parsing (resume upload: PDF / DOCX) ─────────────────────────────
+PyPDF2==3.0.1
+python-docx==1.1.2
+
+# ── Data handling ─────────────────────────────────────────────────────────────
+pandas==2.1.4
+numpy==1.26.4
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+Pillow==10.3.0
